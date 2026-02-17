@@ -1,9 +1,15 @@
 # Task Management Dashboard
 
 A full-stack task management application built with Next.js and Supabase.
-
+---
 ## 🔗 Live Demo
 https://client-task-dashboard-six.vercel.app/
+
+## 👥 Demo Credentials
+
+Admin  
+Email: gagan@gmail.com 
+Password: 00000000  (8 times zero)
 
 ---
 
