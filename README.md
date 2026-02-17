@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Management Dashboard
 
-## Getting Started
+A full-stack task management application built with Next.js and Supabase.
 
-First, run the development server:
+## 🔗 Live Demo
+https://client-task-dashboard-six.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- User Authentication (Sign Up / Login)
+- Role-Based Access Control (Admin / Staff)
+- Row Level Security (RLS)
+- Create, Edit, Delete Tasks
+- Toggle Task Status (Pending / Completed)
+- Task Filtering
+- Overdue Task Highlighting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👥 Demo Credentials
 
-To learn more about Next.js, take a look at the following resources:
+Admin  
+Email: gagan@gmail.com 
+Password: 00000000  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+- Next.js
+- Supabase (Auth + PostgreSQL)
+- Vercel (Deployment)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔐 Security
+
+- RLS enabled on tasks table
+- Staff can manage only their own tasks
+- Admin has full access
