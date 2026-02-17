@@ -24,15 +24,6 @@ Password: 00000000  (8 times zero)
 - Overdue Task Highlighting
 
 ---
-
-## 👥 Demo Credentials
-
-Admin  
-Email: gagan@gmail.com 
-Password: 00000000  
-
----
-
 ## 🛠 Tech Stack
 
 - Next.js
